@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Royal Cusine | Kolkata</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <div class="navbar">
+      <div id="logo">
+        <img src="img/logo.png" alt="No Image">
+        <label id="navbrand-id">The Royal Cusine</label>
+      </div>
+      <div id="navs">
+        <nav>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Menu</a>
+          <a href="#">Gallery</a>
+          <a href="#">Contact</a>
+        </nav>
+      </div>
+      <div id="menuButton">
+        <input type="checkbox" id="sidebarToggle" />
+        <label for="sidebarToggle" id="menuOpen" onclick="toggleOpen()">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            viewBox="0 -960 960 960"
+            width="24px"
+            fill="#e3e3e3"
+          >
+            <path
+              d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+            />
+          </svg>
+        </label>
+        <label for="sidebarToggle" id="menuClose" onclick="toggleClose()">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            viewBox="0 -960 960 960"
+            width="24px"
+            fill="#e3e3e3"
+          >
+            <path
+              d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+            />
+          </svg>
+        </label>
+
+        <div class="sideBar">
+
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Menu</a>
+      <a href="#">Gallery</a>
+      <a href="#">Contact</a>
+    </div>
+
+      </div>
+    </div>
+
+    
+
+    <div class="hero">
+        <div id="hero-top">
+            <div id="restraunt-image">
+                <img src="img/restraunt1.jpg">
+            </div>
+            <div>
+                <br>
+                <br>
+                <br>
+            </div>
+            <div id="restraunt-description">
+                <h1>Experience Royal Indian Dining</h1>
+                <p>Where tradition meets timeless elegance</p>
+                <br>
+                <br>
+                <br>
+                    <button id="reserve_table_btn">Reserve a Table</button>
+
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>  
+        </div>
+        <div id="heroBody">
+            <section id="fst_floor">
+                <div id="fst_floor_img_div">
+                    <img src="img/fst_floor.jpg" alt="No Image">
+                </div>
+                <div id="fst_floor_txt">
+                    <br>
+                        <P>The first floor of the restaurant exudes timeless luxury and grandeur.
+Golden ornate detailing covers the ceilings, pillars, and mirrors, creating a royal ambiance.
+Soft, warm lighting from elegant wall sconces enhances the rich gold tones throughout the space.
+Intimate tables dressed in crisp white linens offer a refined and romantic dining setting.</P>
+
+                </div>
+            </section>
+            <section id="snd_floor">
+                <div id="snd_floor_txt">
+                    <br>
+                        <p>The second floor presents a spacious and well-organized dining environment with a refined traditional touch.
+Intricate ceiling designs and elegant chandeliers create a bright yet graceful atmosphere.
+Wooden partitions neatly divide the seating areas, offering both privacy and structure.
+Detailed carvings and decorative wall panels reflect classic craftsmanship and heritage design.</p>
+
+                </div>
+                <div id="snd_floor_img_div">
+                    <img src="img/snd_floor.jpg" alt="No Image">
+                </div>
+                
+            </section>
+        </div>
+    </div>
+
+
+   <div class="footer">
+  <div class="footer-content">
+    <h3>The Royal Cuisine</h3>
+    <p>Kolkata | Authentic Indian Dining</p>
+    <p>© 2026 All Rights Reserved</p>
+  </div>
+</div>
+
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
